@@ -1,0 +1,19 @@
+{
+  "name": "memebank",
+  "version": "1.0.0",
+  "description": "MSA Phase 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanKing01/MemeBank.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanKing01/MemeBank/issues"
+  },
+  "homepage": "https://github.com/JonathanKing01/MemeBank#readme"
+}
