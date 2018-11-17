@@ -4,7 +4,7 @@
   "description": "MSA Phase 1",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "test"
   },
   "repository": {
     "type": "git",
