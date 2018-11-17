@@ -1,19 +1,18 @@
 {
   "name": "memebank",
   "version": "1.0.0",
-  "description": "MSA Phase 2",
+  "description": "",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "build",
-    "build": "npm run Program.cs"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JonathanKing01/MemeBank.git"
   },
-  "author": "jkin677",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JonathanKing01/MemeBank/issues"
