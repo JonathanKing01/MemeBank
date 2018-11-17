@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "c098efd9ee6bbb5a244afad903310e1bb1a232ee"
+    "signature": "140c5d4d33d3651d9815d65d48ca51a5d1d91027"
   },
   "compilationOptions": {
     "defines": [
@@ -28,7 +28,9 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.4",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3",
-          "Swashbuckle.AspNetCore": "4.0.1"
+          "Swashbuckle.AspNetCore": "4.0.1",
+          "System.Drawing.Common": "4.5.1",
+          "WindowsAzure.Storage": "9.3.2"
         },
         "runtime": {
           "MemeBank.dll": {}
@@ -473,7 +475,7 @@
       "Microsoft.AspNetCore.Authentication.OAuth/2.0.3": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication": "2.0.3",
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "10.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.OAuth.dll": {
@@ -667,7 +669,7 @@
       "Microsoft.AspNetCore.DataProtection.AzureStorage/2.0.2": {
         "dependencies": {
           "Microsoft.AspNetCore.DataProtection": "2.0.2",
-          "WindowsAzure.Storage": "8.1.4"
+          "WindowsAzure.Storage": "9.3.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.AzureStorage.dll": {
@@ -933,7 +935,7 @@
       "Microsoft.AspNetCore.JsonPatch/2.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.4.0",
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "10.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {
@@ -1245,7 +1247,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.2",
           "Microsoft.Extensions.Logging.Console": "2.0.1",
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "10.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.NodeServices.dll": {
@@ -1619,7 +1621,7 @@
           "Microsoft.Rest.ClientRuntime": "2.3.8",
           "Microsoft.Rest.ClientRuntime.Azure": "3.3.7",
           "NETStandard.Library": "2.0.0",
-          "Newtonsoft.Json": "10.0.1",
+          "Newtonsoft.Json": "10.0.2",
           "System.Net.Http": "4.3.0"
         },
         "runtime": {
@@ -1636,7 +1638,7 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
           "NETStandard.Library": "2.0.0",
-          "Newtonsoft.Json": "10.0.1",
+          "Newtonsoft.Json": "10.0.2",
           "System.Collections": "4.3.0",
           "System.Collections.Concurrent": "4.3.0",
           "System.Linq": "4.3.0",
@@ -1772,90 +1774,6 @@
         }
       },
       "Microsoft.CSharp/4.4.0": {},
-      "Microsoft.Data.Edm/5.8.2": {
-        "runtime": {
-          "lib/netstandard1.1/Microsoft.Data.Edm.dll": {
-            "assemblyVersion": "5.8.1.0",
-            "fileVersion": "5.8.1.62767"
-          }
-        },
-        "resources": {
-          "lib/netstandard1.1/de/Microsoft.Data.Edm.resources.dll": {
-            "locale": "de"
-          },
-          "lib/netstandard1.1/es/Microsoft.Data.Edm.resources.dll": {
-            "locale": "es"
-          },
-          "lib/netstandard1.1/fr/Microsoft.Data.Edm.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/netstandard1.1/it/Microsoft.Data.Edm.resources.dll": {
-            "locale": "it"
-          },
-          "lib/netstandard1.1/ja/Microsoft.Data.Edm.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/netstandard1.1/ko/Microsoft.Data.Edm.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/netstandard1.1/ru/Microsoft.Data.Edm.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/netstandard1.1/zh-Hans/Microsoft.Data.Edm.resources.dll": {
-            "locale": "zh-Hans"
-          },
-          "lib/netstandard1.1/zh-Hant/Microsoft.Data.Edm.resources.dll": {
-            "locale": "zh-Hant"
-          }
-        },
-        "compile": {
-          "lib/netstandard1.1/Microsoft.Data.Edm.dll": {}
-        }
-      },
-      "Microsoft.Data.OData/5.8.2": {
-        "dependencies": {
-          "Microsoft.Data.Edm": "5.8.2",
-          "System.Spatial": "5.8.2"
-        },
-        "runtime": {
-          "lib/netstandard1.1/Microsoft.Data.OData.dll": {
-            "assemblyVersion": "5.8.1.0",
-            "fileVersion": "5.8.1.62767"
-          }
-        },
-        "resources": {
-          "lib/netstandard1.1/de/Microsoft.Data.OData.resources.dll": {
-            "locale": "de"
-          },
-          "lib/netstandard1.1/es/Microsoft.Data.OData.resources.dll": {
-            "locale": "es"
-          },
-          "lib/netstandard1.1/fr/Microsoft.Data.OData.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/netstandard1.1/it/Microsoft.Data.OData.resources.dll": {
-            "locale": "it"
-          },
-          "lib/netstandard1.1/ja/Microsoft.Data.OData.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/netstandard1.1/ko/Microsoft.Data.OData.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/netstandard1.1/ru/Microsoft.Data.OData.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/netstandard1.1/zh-Hans/Microsoft.Data.OData.resources.dll": {
-            "locale": "zh-Hans"
-          },
-          "lib/netstandard1.1/zh-Hant/Microsoft.Data.OData.resources.dll": {
-            "locale": "zh-Hant"
-          }
-        },
-        "compile": {
-          "lib/netstandard1.1/Microsoft.Data.OData.dll": {}
-        }
-      },
       "Microsoft.Data.Sqlite/2.0.1": {
         "dependencies": {
           "Microsoft.Data.Sqlite.Core": "2.1.0",
@@ -2198,7 +2116,7 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.0.1",
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "10.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll": {
@@ -2268,7 +2186,7 @@
       "Microsoft.Extensions.DependencyModel/2.0.3": {
         "dependencies": {
           "Microsoft.DotNet.PlatformAbstractions": "2.0.3",
-          "Newtonsoft.Json": "10.0.1",
+          "Newtonsoft.Json": "10.0.2",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Dynamic.Runtime": "4.3.0",
           "System.Linq": "4.3.0"
@@ -2531,7 +2449,7 @@
       "Microsoft.Extensions.Logging.EventSource/2.0.1": {
         "dependencies": {
           "Microsoft.Extensions.Logging": "2.1.1",
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "10.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.EventSource.dll": {
@@ -2719,7 +2637,7 @@
       "Microsoft.IdentityModel.Tokens/5.1.4": {
         "dependencies": {
           "Microsoft.IdentityModel.Logging": "1.1.4",
-          "Newtonsoft.Json": "10.0.1",
+          "Newtonsoft.Json": "10.0.2",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Tools": "4.3.0",
           "System.Runtime": "4.3.0",
@@ -2762,7 +2680,7 @@
       "Microsoft.Rest.ClientRuntime/2.3.8": {
         "dependencies": {
           "NETStandard.Library": "2.0.0",
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "10.0.2"
         },
         "runtime": {
           "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {
@@ -2778,7 +2696,7 @@
         "dependencies": {
           "Microsoft.Rest.ClientRuntime": "2.3.8",
           "NETStandard.Library": "2.0.0",
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "10.0.2"
         },
         "runtime": {
           "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {
@@ -2824,7 +2742,7 @@
       },
       "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.0.3": {
         "dependencies": {
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "10.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll": {
@@ -2840,7 +2758,7 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "2.1.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "2.0.3",
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "10.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll": {
@@ -2900,7 +2818,7 @@
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "2.3.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": "2.0.3",
-          "Newtonsoft.Json": "10.0.1",
+          "Newtonsoft.Json": "10.0.2",
           "NuGet.Frameworks": "4.0.0"
         },
         "runtime": {
@@ -2954,39 +2872,38 @@
           "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {}
         }
       },
-      "Newtonsoft.Json/10.0.1": {
+      "Microsoft.Win32.SystemEvents/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Newtonsoft.Json/10.0.2": {
         "dependencies": {
           "Microsoft.CSharp": "4.4.0",
-          "System.Collections": "4.3.0",
+          "NETStandard.Library": "2.0.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Dynamic.Runtime": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.IO": "4.3.0",
-          "System.Linq": "4.3.0",
-          "System.Linq.Expressions": "4.3.0",
-          "System.ObjectModel": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Extensions": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Runtime.Numerics": "4.3.0",
           "System.Runtime.Serialization.Formatters": "4.3.0",
           "System.Runtime.Serialization.Primitives": "4.3.0",
-          "System.Text.Encoding": "4.3.0",
-          "System.Text.Encoding.Extensions": "4.3.0",
-          "System.Text.RegularExpressions": "4.3.0",
-          "System.Threading": "4.3.0",
-          "System.Threading.Tasks": "4.3.0",
-          "System.Xml.ReaderWriter": "4.3.0",
-          "System.Xml.XDocument": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.1.20720"
+            "fileVersion": "10.0.2.20802"
           }
         },
         "compile": {
@@ -2996,7 +2913,7 @@
       "Newtonsoft.Json.Bson/1.0.1": {
         "dependencies": {
           "NETStandard.Library": "2.0.0",
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "10.0.2"
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
@@ -3419,7 +3336,7 @@
           "Microsoft.AspNetCore.Routing": "2.0.2",
           "Microsoft.AspNetCore.StaticFiles": "2.0.2",
           "Microsoft.Extensions.FileProviders.Embedded": "2.0.1",
-          "Newtonsoft.Json": "10.0.1"
+          "Newtonsoft.Json": "10.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
@@ -3751,6 +3668,35 @@
           "Microsoft.NETCore.Platforms": "2.0.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.Win32.SystemEvents": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Drawing.Common.dll": {}
         }
       },
       "System.Dynamic.Runtime/4.3.0": {
@@ -4528,46 +4474,6 @@
           "ref/netstandard2.0/System.Security.Principal.Windows.dll": {}
         }
       },
-      "System.Spatial/5.8.2": {
-        "runtime": {
-          "lib/netstandard1.1/System.Spatial.dll": {
-            "assemblyVersion": "5.8.1.0",
-            "fileVersion": "5.8.1.62767"
-          }
-        },
-        "resources": {
-          "lib/netstandard1.1/de/System.Spatial.resources.dll": {
-            "locale": "de"
-          },
-          "lib/netstandard1.1/es/System.Spatial.resources.dll": {
-            "locale": "es"
-          },
-          "lib/netstandard1.1/fr/System.Spatial.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/netstandard1.1/it/System.Spatial.resources.dll": {
-            "locale": "it"
-          },
-          "lib/netstandard1.1/ja/System.Spatial.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/netstandard1.1/ko/System.Spatial.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/netstandard1.1/ru/System.Spatial.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/netstandard1.1/zh-Hans/System.Spatial.resources.dll": {
-            "locale": "zh-Hans"
-          },
-          "lib/netstandard1.1/zh-Hant/System.Spatial.resources.dll": {
-            "locale": "zh-Hant"
-          }
-        },
-        "compile": {
-          "lib/netstandard1.1/System.Spatial.dll": {}
-        }
-      },
       "System.Text.Encoding/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -4759,17 +4665,15 @@
           "System.Xml.XPath": "4.3.0"
         }
       },
-      "WindowsAzure.Storage/8.1.4": {
+      "WindowsAzure.Storage/9.3.2": {
         "dependencies": {
-          "Microsoft.Data.OData": "5.8.2",
           "NETStandard.Library": "2.0.0",
-          "Newtonsoft.Json": "10.0.1",
-          "System.Spatial": "5.8.2"
+          "Newtonsoft.Json": "10.0.2"
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {
-            "assemblyVersion": "8.1.4.0",
-            "fileVersion": "8.1.4.0"
+            "assemblyVersion": "9.3.2.0",
+            "fileVersion": "9.3.2.0"
           }
         },
         "compile": {
@@ -5630,20 +5534,6 @@
       "path": "microsoft.csharp/4.4.0",
       "hashPath": "microsoft.csharp.4.4.0.nupkg.sha512"
     },
-    "Microsoft.Data.Edm/5.8.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-P/d8DxA6MFHroBEn/jW0LMQSIKnsRRibrZtRCLfov2boQfrQ1R1BVgkJ5oIhcQsOm0l4POv+I2ny6RBsclNbOw==",
-      "path": "microsoft.data.edm/5.8.2",
-      "hashPath": "microsoft.data.edm.5.8.2.nupkg.sha512"
-    },
-    "Microsoft.Data.OData/5.8.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oEIUtXcRiKogF0yZxA+QdgxoBJ34989qL/5xOSrTfxAhzNJV5Hw6DRdWgUCpeXFMoJUQx7ptbHCN+My/LCQfsg==",
-      "path": "microsoft.data.odata/5.8.2",
-      "hashPath": "microsoft.data.odata.5.8.2.nupkg.sha512"
-    },
     "Microsoft.Data.Sqlite/2.0.1": {
       "type": "package",
       "serviceable": true,
@@ -6176,12 +6066,19 @@
       "path": "microsoft.win32.registry/4.4.0",
       "hashPath": "microsoft.win32.registry.4.4.0.nupkg.sha512"
     },
-    "Newtonsoft.Json/10.0.1": {
+    "Microsoft.Win32.SystemEvents/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MOUhQfeI43upq9QiEv+7YYTDQPtEZEj9xB50MgplO1XF/aumP0f+TCYIHpZEmfsiahJJaXt/gdRFYLFEoF2VyQ==",
-      "path": "newtonsoft.json/10.0.1",
-      "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
+      "sha512": "sha512-K2TAr07pgl/m/J9ed3cmAzx0SD55kYuVfBG6SPRIH/ELTh/D2qGrjOWDQJo7r+LZl1nO2Nkl0UAQBUt6S2ewqQ==",
+      "path": "microsoft.win32.systemevents/4.5.0",
+      "hashPath": "microsoft.win32.systemevents.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/10.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vcX8ci+srBr5scnSKCUNNoFo5BQ6KjdfeJ5LCJQhvxncNkTy7w3pAWsnRJrsF9WBBdMiaQp0aOa3YRh1CDCc7A==",
+      "path": "newtonsoft.json/10.0.2",
+      "hashPath": "newtonsoft.json.10.0.2.nupkg.sha512"
     },
     "Newtonsoft.Json.Bson/1.0.1": {
       "type": "package",
@@ -6610,6 +6507,13 @@
       "path": "system.diagnostics.tracing/4.3.0",
       "hashPath": "system.diagnostics.tracing.4.3.0.nupkg.sha512"
     },
+    "System.Drawing.Common/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RR9zs3qhIemEToSoCGZk8p/eox3NIYFrVSuIFJUUVr469+0f5zHJbGsZrzZSq6J1qmXnkaVv9d9t+05TGY9BHw==",
+      "path": "system.drawing.common/4.5.1",
+      "hashPath": "system.drawing.common.4.5.1.nupkg.sha512"
+    },
     "System.Dynamic.Runtime/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -6988,13 +6892,6 @@
       "path": "system.security.principal.windows/4.4.0",
       "hashPath": "system.security.principal.windows.4.4.0.nupkg.sha512"
     },
-    "System.Spatial/5.8.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-0RfZZJ8RlrfjoBPAF6pczX4Nd2kyLM8EX1PCP5Rqs/jOhJBUPYhpXjIsVAYN7kocj9IJ9XoJWAxWgXIDtJY2Ag==",
-      "path": "system.spatial/5.8.2",
-      "hashPath": "system.spatial.5.8.2.nupkg.sha512"
-    },
     "System.Text.Encoding/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -7128,12 +7025,12 @@
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
     },
-    "WindowsAzure.Storage/8.1.4": {
+    "WindowsAzure.Storage/9.3.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KXblJ3XWzUORNFiIoItmK/sOFIa3aKdjXSpdiCpYmqUKeFt6BQ1pDoGqeynvmuwLqlqp6/+RCXnW+Fix1bPWxQ==",
-      "path": "windowsazure.storage/8.1.4",
-      "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
+      "sha512": "sha512-3MhTw6Jdh9PkaaOCYi6K/L0Bl+AbBQbD+acn4uLkIUqqC5lts8JnSUZqQygtA6zhiY2bUi7Xmspv3tdJI/qjMA==",
+      "path": "windowsazure.storage/9.3.2",
+      "hashPath": "windowsazure.storage.9.3.2.nupkg.sha512"
     },
     "Microsoft.NETCore.App/2.0.0": {
       "type": "package",
