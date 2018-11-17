@@ -6,7 +6,8 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "build"
+    "test": "build",
+    "build": "npm run Program.cs"
   },
   "repository": {
     "type": "git",
